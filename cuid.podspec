@@ -26,11 +26,11 @@ Pod::Spec.new do |s|
   Cuid().gencuid() returns a short random string with some collision-busting measures. Safe to use as HTML element ID's, and unique server-side record lookups.
                        DESC
 
-  s.homepage         = 'https://github.com/raphaelmansuy/cuid'
+  s.homepage         = 'https://github.com/ashhanai/cuid'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'raphaelmansuy' => 'raphael.mansuy@gmail.com' }
-  s.source           = { :git => 'https://github.com/raphaelmansuy/cuid.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ashhanai/cuid.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
